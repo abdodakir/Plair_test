@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Static CSS file -->
+        <link rel="stylesheet" type="text/css" href="static/style/css/style.css">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <!-- JavaScript file -->
+        <script type="text/javascript" src="static/style/js/actions.js"></script>
+        <title>Plair SA Test</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="card header">
+                    <div class="card-body">
+                        <h1>Plair SA Test</h1>
+                        <p>My name is DAKIR Abdelati and this is my Plair SA Test!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row content" >
+                <div class="col-12 col-md m-1">
+                    <div class="card" style="height: 40rem;">
+                        <div class="card-body">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 65.326 612 502.174" enable-background="new 0 65.326 612 502.174"
+                                xml:space="preserve" class="logo">
+                                <text x="78" y="275" fill="black">1</text>
+                                <ellipse class="ground" cx="80" cy="300" rx="15" ry="15" onclick="myFunction('1')"/>
+                                <line x1="90" y1="310" x2="263" y2="443" style="stroke:black;stroke-width:2" />
+                                <polygon points="259,440 248,441 256,430" style="fill:black;;" />
+                                <text x="268" y="425" fill="black">2</text>
+                                <ellipse class="ground" cx="270" cy="450" rx="15" ry="15" onclick="myFunction('2')"/>
+                                <line x1="282" y1="440" x2="494" y2="208" style="stroke:black;stroke-width:2" />
+                                <polygon points="490,212 479,213 491,222" style="fill:black;;" />
+                                <text x="498" y="175" fill="black">3</text>
+                                <ellipse class="ground" cx="500" cy="200" rx="15" ry="15" onclick="myFunction('3')"/>
+
+                                <filter id="pictureFilter" >
+                                    <feGaussianBlur stdDeviation="1" />
+                                </filter>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 m-1">
+                    <div class="text-center">
+                        <form class="form" id="myForm" onsubmit="handleSubmit(); return false">
+                            <div class="form-group">
+                                <label for="node" >Selected Node</label>
+                                <input type="text" class="form-control" id="node" readonly="readonly">
+                            </div>
+                            <div class="form-group">
+                                <label for="property_1" >Property 1</label>
+                                <input type="text" class="form-control" value="" id="property_1">
+                            </div>
+                            <div class="form-group">
+                                <label for="property_2" >Property 2</label>
+                                <input type="text" class="form-control" value="" id="property_2">
+                            </div>
+                            <div class="form-group">
+                                <label for="property_3" >Property 3</label>
+                                <input type="text" class="form-control" value="" id="property_3">
+                            </div>
+                            <button type="submit" class="btn btn-outline-secondary">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
